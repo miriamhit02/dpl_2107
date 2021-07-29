@@ -33,7 +33,10 @@ class Library
 
   def checked_out_books
     checked_out = []
-    binding.pry
-    
+    # binding.pry
+    if checkout(book) == true
+
+    end
+
   end
 end
